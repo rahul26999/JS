@@ -1,0 +1,16 @@
+<h1 id="jn">Name</h1>
+<button onclick="change(event)">john</button>
+<button onclick="change(event)">hari</button>
+<button onclick="change(event)">karthi</button>
+
+<script>
+    var jn=document.getElementById("jn")
+
+    function change(event)
+    {
+        // to check== console.log(event) >>> (event.target(the name)) >> (event.target.textContent -- it will display "name")
+        // event is used to target and change the value
+        jn.textContent=event.target.textContent
+    }
+</script>
+

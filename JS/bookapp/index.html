@@ -1,0 +1,43 @@
+<!DOCTYPE html>                               <!--html:5--to get the body tag-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookapp</title>
+    <link rel="stylesheet" href="style.css">   <!-- link:css to link the CSS page-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <h1>BOOKAPPS</h1>
+    </div>
+
+    <div class="container">
+        <div class="book-container">
+            <h2>Book-Name: The Harry Potter</h2>
+            <h3>Author: J.K.Rowling</h3>
+            <p>Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry.</p>
+            <button onclick="deletebook(event)">Delete</button>
+        </div>
+    </div>
+
+    <div class="pop-overlay"></div>
+    <div class="popupbox">
+        <h1>Add Book</h1>
+        <form>
+            <input type="text" placeholder="Book Title" id="book-title-input">
+            <input type="text" placeholder="Book Author" id="book-Author-input">
+            <textarea placeholder="Short description" id="book-description-input"></textarea>
+            <button id="add-book">ADD</button>
+            <button onclick="closeup(event)" id="close-book">CLOSE</button>
+        </form>
+        
+    </div>
+    
+    <button class="add-button" id="add-popup-button">+</button>
+
+    <script src="script.js"></script>           <!--src="filename.js"-->
+</body>
+</html>

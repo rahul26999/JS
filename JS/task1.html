@@ -1,0 +1,15 @@
+<input id="inputbox" onkeyup="key()">
+<h1 id="result">Result</h1>
+
+
+<script>
+//                                                             <button onclick="key()">Go</button>
+
+    var input=document.getElementById("inputbox")
+    var result=document.getElementById("result")
+
+    function key()
+    {
+        result.textContent=inputbox.value
+    }
+</script>

@@ -1,0 +1,47 @@
+JAVASCRIPT VARIABLES:
+
+>>> Variables are containers for storing information or Data.
+>>> Variables can be declared in 3ways --- Using Var, Using let, Using const
+
+Let-- Block scope
+var keyword-- Function scope or Global scope
+const -- A number will be Assigned constant cannot be able to changed.
+
+eg: 1
+var a=20
+var b=20
+Console.log(a+b) --- console statement is used to print the variables.
+
+eg 2:
+{
+let a=10
+console.log(a)
+}
+
+eg 3:
+const a=20
+console.log(a)
+
+
+
+*********************************************************************************************************
+JAVASCRIPT COMMENTS: used to denote as comments in code.
+
+Eg: 
+
+1. Single line comments
+// ooty Apple -- like pointers and heading for our reference
+
+2. Multi-line comments:
+/*
+hai da chat punda
+*/
+
+> Can be used to Explain JAVASCRIPTS code, and to make it more Readable. 
+> JAVA SCRIPT Comments:- Used to prevent execution, when testing Alternative code.
+
+>>> Single Line comments
+>>> Mutli-line comments
+
+************************************************************************************************************
+JAVASCRIPT OPERATORS:

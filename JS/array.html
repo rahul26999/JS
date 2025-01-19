@@ -1,0 +1,22 @@
+
+<h1 id="header" onclick="hello(arr)"> HEllo word </h1>
+
+<script>
+const arr = ["susman", "schahs", "dcnh","chuyd"];
+  let i = 0;
+
+function hello(arr){
+
+  if(i > arr.length-1){
+    i = 0;
+    hello(arr)
+  }
+  
+  else{
+     document.getElementById("header").innerHTML = (arr[i]);
+     i++
+  }
+  
+}
+
+</script>

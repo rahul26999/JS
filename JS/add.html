@@ -1,0 +1,39 @@
+<input id="num1">
+<input id="num2">
+<button onclick="resultt()">Add</button>
+<p id="result">Result</p>
+
+<script>
+    var box1=document.getElementById("num1")
+    var box2=document.getElementById("num2")
+    var result=document.getElementById("result")
+
+    function resultt()
+    {
+        var box1value=Number(box1.value)
+        var box2value=Number(box2.value)
+        var total=box1value+box2value
+        result.textContent=total
+    }
+</script>
+
+
+
+<input id="n1">
+<input id="n2">
+<button onclick="turn()">both</button>
+<p id="res">Res</p>
+
+<script>
+    var box11=document.getElementById("n1")
+    var box12=document.getElementById("n2")
+    var res=document.getElementById("res")
+
+    function turn()
+    {
+        var box11value=Number(box11.value)
+        var box12value=Number(box12.value)
+        var tot=box11value*box12value
+        res.textContent=tot
+    }
+</script>

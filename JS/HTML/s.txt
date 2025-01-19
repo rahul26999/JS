@@ -1,0 +1,10 @@
+HTML	-- Hypertext markup language (used to create websites, Giving instructions to a computer)
+
+1. HTML Attributes-- Modifies how an element behaves (eg: href="", target="")
+
+***************************************************************************************************************
+CSS-- Cascading style sheets
+
+--- Change the appearance of HTML elements
+
+1. 

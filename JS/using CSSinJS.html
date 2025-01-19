@@ -1,0 +1,24 @@
+
+<style>
+    div{
+        background-color: aqua;
+        width: 100px;
+        height: 100px;
+        transition: 2s;
+    }
+    .widthmax{
+        width: 900px;
+    }
+</style>
+<div id="box"></div>
+<button onclick="change()">checkColour</button>
+
+<script>
+    var box=document.getElementById("box")    // manipulating CSS styles in JS
+
+    function change()
+    {
+        box.style.backgroundColor="red"
+        box.setAttribute("class","widthmax")
+    }
+</script>

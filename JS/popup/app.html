@@ -1,0 +1,63 @@
+<!--<style>
+    .overlay{
+        background-color: black;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        opacity: 0.8;
+        display: none;
+    }
+    .popupbox{
+        background-color: white;
+        z-index: 3;
+        width: 40%;
+        position: absolute;
+        padding: 30px;
+        color: black;
+        border-radius: 10px;
+        left: 29%;
+        display: none;
+    }
+</style>
+
+<button onclick="show()">Show</button>
+<div class="overlay"></div>
+<div class="popupbox">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id veniam consequatur voluptatum amet dolor, dolores provident repudiandae ratione. Veniam ipsam beatae ab provident accusamus ea sapiente voluptate! Mollitia, voluptate dicta!</p>
+    <button onclick="closeup()">Close</button>
+</div>
+<script>
+    // select popup overlay
+    //select popupbox
+    var popupoverlay=document.querySelector(".overlay")
+    var popupbox=document.querySelector(".popupbox")
+
+    function show()
+    {
+        popupbox.style.display="block"
+        popupoverlay.style.display="block"
+    }
+
+    function closeup()
+    {
+        popupbox.style.display="none"
+        popupoverlay.style.display="none"
+    }
+</script> -->
+
+
+<button id="btn">Show</button>
+
+<script>
+    var button=document.getElementById("btn")           // instead of onclick="" the below template can be used.
+                                                        // template: button.addEventListener("click",function(){***})
+    button.addEventListener("click",function(){
+        alert("Warning!!!")
+    })
+
+    //button.addEventListener("mouseover",function(){
+        //alert("mouse is on the show")
+    //})
+</script>
